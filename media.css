@@ -1,0 +1,24 @@
+div {
+  width: 33.3%;
+  height: 200px;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  div {
+    clear: both;
+    width: 100%;
+  }
+}
+
+#one {
+  background-color: yellow;
+}
+
+#two {
+  background-color: orange;
+}
+
+#three {
+  background-color: red;
+}

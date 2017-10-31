@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset-"UTF-8">
+    <title>Kickin More Divs Around</title>
+    <style>
+      div {
+	width: 100px;
+	height: 100px;
+      }
+      #div1 {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	position: relative;
+      }
+      #div2 {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+      }
+      #div3 {
+	background-color: yellow;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+      }
+      #div4 {
+	background-color: green;
+        position: fixed;	
+	right: 0;
+	bottom: 0;	
+      }
+      #div5 {
+	background-color: blue;
+      } 
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+      <div id="div2">
+	<div id="div3"></div>
+      </div>
+    </div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+  </body>
+</html>

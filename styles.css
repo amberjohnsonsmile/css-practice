@@ -1,0 +1,11 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #d8efd7;
+  padding: 10px;
+  float: left;
+}
+
+#last {
+  /*clear: both;*/ 
+}

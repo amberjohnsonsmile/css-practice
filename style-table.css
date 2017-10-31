@@ -1,0 +1,17 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: crimson;
+}
+
+tr:nth-child(3n+3) {
+  background-color: beige;
+}
+
+tr:hover {
+  background-color: green;
+}
